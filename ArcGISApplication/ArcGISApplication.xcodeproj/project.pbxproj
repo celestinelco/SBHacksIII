@@ -15,6 +15,7 @@
 		C5E508581E337DEE00518462 /* ArcGISApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508571E337DED00518462 /* ArcGISApplicationTests.swift */; };
 		C5E508631E337DEE00518462 /* ArcGISApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508621E337DEE00518462 /* ArcGISApplicationUITests.swift */; };
 		C5E508711E33804600518462 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5E508701E33804600518462 /* ArcGIS.bundle */; };
+		C5E508731E33829100518462 /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508721E33829000518462 /* MainMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C5E508621E337DEE00518462 /* ArcGISApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcGISApplicationUITests.swift; sourceTree = "<group>"; };
 		C5E508641E337DEE00518462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5E508701E33804600518462 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../../../Library/SDKs/ArcGIS/iOS/Frameworks/Static/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		C5E508721E33829000518462 /* MainMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				C5E508421E337DED00518462 /* AppDelegate.swift */,
 				C5E508441E337DED00518462 /* ViewController.swift */,
-				C5E508701E33804600518462 /* ArcGIS.bundle */,
+				C5E508721E33829000518462 /* MainMapViewController.swift */,
 				C5E508461E337DED00518462 /* Main.storyboard */,
+				C5E508701E33804600518462 /* ArcGIS.bundle */,
 				C5E508491E337DED00518462 /* Assets.xcassets */,
 				C5E5084B1E337DED00518462 /* LaunchScreen.storyboard */,
 				C5E5084E1E337DED00518462 /* Info.plist */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E508731E33829100518462 /* MainMapViewController.swift in Sources */,
 				C5E508451E337DED00518462 /* ViewController.swift in Sources */,
 				C5E508431E337DED00518462 /* AppDelegate.swift in Sources */,
 			);
@@ -420,6 +424,7 @@
 				DEVELOPMENT_TEAM = EAYC8NMCCB;
 				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static";
 				INFOPLIST_FILE = ArcGISApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -441,6 +446,7 @@
 				DEVELOPMENT_TEAM = EAYC8NMCCB;
 				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static";
 				INFOPLIST_FILE = ArcGISApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
