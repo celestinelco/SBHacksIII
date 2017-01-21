@@ -1,4 +1,4 @@
 # SBHacksIII
 Celestine Co, Russell Caletena, Rutu Samai
 
-January 21, 2017
+21 January 2017
