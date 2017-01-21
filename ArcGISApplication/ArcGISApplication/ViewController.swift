@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  SBHacksRCRSCC
+//  ArcGISApplication
 //
 //  Created by Celestine Co on 1/21/17.
 //  Copyright © 2017 Celestine. All rights reserved.

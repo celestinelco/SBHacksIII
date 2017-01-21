@@ -1,6 +1,6 @@
 //
-//  SBHacksRCRSCCUITests.swift
-//  SBHacksRCRSCCUITests
+//  ArcGISApplicationUITests.swift
+//  ArcGISApplicationUITests
 //
 //  Created by Celestine Co on 1/21/17.
 //  Copyright © 2017 Celestine. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class SBHacksRCRSCCUITests: XCTestCase {
+class ArcGISApplicationUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

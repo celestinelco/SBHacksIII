@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SBHacksRCRSCC.xcscheme</key>
+		<key>ArcGISApplication.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C5CEEC831E335761009ABFF2</key>
+		<key>C5E5083E1E337DED00518462</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5CEEC971E335762009ABFF2</key>
+		<key>C5E508521E337DED00518462</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5CEECA21E335762009ABFF2</key>
+		<key>C5E5085D1E337DEE00518462</key>
 		<dict>
 			<key>primary</key>
 			<true/>
