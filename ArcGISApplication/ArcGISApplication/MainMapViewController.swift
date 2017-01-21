@@ -17,9 +17,9 @@ class MainMapViewController: UIViewController {
     
     override func viewDidLoad() {
         print("\n\nMainMapViewController.swift\n\n")
-		print("Russell was here fam")
         
         myMap.map = AGSMap(basemapType: .imageryWithLabels, latitude: 35.3050, longitude: -120.6625, levelOfDetail: 16)
+        
     }
     
     
