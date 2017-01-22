@@ -15,10 +15,12 @@ class DescriptionViewController: UIViewController {
     
     @IBOutlet weak var backButton: UIButton!
     
+    override func viewDidLoad() {
+        print("\n\nDescriptionViewController.swift\n\n")
+    }
 
     @IBAction func backButton(_ sender: UIButton) {
         navigateToAuthenticatedViewController("mainMapVC")
-
     }
     
     /**

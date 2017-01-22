@@ -17,10 +17,13 @@ class LoginAuthenticationViewController: UIViewController {
     @IBOutlet weak var phoneTextField: UITextField!
     @IBOutlet weak var nextButton: UIButton!
     
+    override func viewDidLoad() {
+        print("\n\nLoginAuthenticationViewController.swift\n\n")
+    }
+    
     @IBAction func nextButton(_ sender: UIButton) {
         navigateToAuthenticatedViewController("mainMapVC")
     }
-    
     
     /**
      Navigates storyboard to view controller with specified String name.
