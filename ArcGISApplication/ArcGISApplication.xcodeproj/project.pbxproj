@@ -21,6 +21,29 @@
 		C5E5087E1E343C6600518462 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E5087D1E343C6600518462 /* NotificationsViewController.swift */; };
 		C5E508811E348FC700518462 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E508801E348FC700518462 /* Splash.png */; };
 		C5E508831E34921100518462 /* tent.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E508821E34921100518462 /* tent.png */; };
+		FF0F6BC81E34BB6800AD36A8 /* Screen Shot 2017-01-21 at 5.47.55 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BC71E34BB6800AD36A8 /* Screen Shot 2017-01-21 at 5.47.55 PM.png */; };
+		FF0F6BCA1E34C06000AD36A8 /* Notifications.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BC91E34C06000AD36A8 /* Notifications.png */; };
+		FF0F6BD21E34C42A00AD36A8 /* LeftA.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BD11E34C42A00AD36A8 /* LeftA.png */; };
+		FF0F6BD41E34C7BE00AD36A8 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BD31E34C7BE00AD36A8 /* house.png */; };
+		FF0F6BD61E34C9E500AD36A8 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BD51E34C9E500AD36A8 /* text.png */; };
+		FF0F6BD81E34CB5500AD36A8 /* textp.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BD71E34CB5500AD36A8 /* textp.png */; };
+		FF0F6BDA1E34CBFB00AD36A8 /* textpic.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BD91E34CBFB00AD36A8 /* textpic.png */; };
+		FF0F6BDC1E34CC7F00AD36A8 /* notif.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BDB1E34CC7F00AD36A8 /* notif.png */; };
+		FF0F6BDE1E34CD4000AD36A8 /* siri.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BDD1E34CD3F00AD36A8 /* siri.png */; };
+		FF0F6BE01E34CD5200AD36A8 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BDF1E34CD5200AD36A8 /* mail.png */; };
+		FF0F6BE21E34CECC00AD36A8 /* orangesq.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BE11E34CECC00AD36A8 /* orangesq.png */; };
+		FF0F6BE41E34CF7B00AD36A8 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BE31E34CF7B00AD36A8 /* check.png */; };
+		FF0F6BE61E34D3AB00AD36A8 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BE51E34D3AB00AD36A8 /* red.png */; };
+		FF0F6BE81E34D44C00AD36A8 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BE71E34D44C00AD36A8 /* blue.png */; };
+		FF0F6BEA1E34D45200AD36A8 /* graycircle.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BE91E34D45200AD36A8 /* graycircle.png */; };
+		FF0F6BEC1E34D46000AD36A8 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BEB1E34D46000AD36A8 /* orange.png */; };
+		FF0F6BEE1E34D69200AD36A8 /* currentLocationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BED1E34D69200AD36A8 /* currentLocationIcon.png */; };
+		FF0F6BF01E34D74F00AD36A8 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BEF1E34D74F00AD36A8 /* compass.png */; };
+		FF0F6BF21E34D95B00AD36A8 /* amb.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BF11E34D95B00AD36A8 /* amb.png */; };
+		FF0F6BF41E34D96100AD36A8 /* police.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BF31E34D96100AD36A8 /* police.png */; };
+		FF0F6BF61E34D96C00AD36A8 /* firetruck.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BF51E34D96C00AD36A8 /* firetruck.png */; };
+		FF0F6BF81E34D97400AD36A8 /* storm.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BF71E34D97400AD36A8 /* storm.png */; };
+		FF0F6BFC1E34DB2200AD36A8 /* rrrrightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BFB1E34DB2200AD36A8 /* rrrrightarrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +84,29 @@
 		C5E5087D1E343C6600518462 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		C5E508801E348FC700518462 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 		C5E508821E34921100518462 /* tent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tent.png; sourceTree = "<group>"; };
+		FF0F6BC71E34BB6800AD36A8 /* Screen Shot 2017-01-21 at 5.47.55 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-01-21 at 5.47.55 PM.png"; path = "../../../../Screen Shot 2017-01-21 at 5.47.55 PM.png"; sourceTree = "<group>"; };
+		FF0F6BC91E34C06000AD36A8 /* Notifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notifications.png; sourceTree = "<group>"; };
+		FF0F6BD11E34C42A00AD36A8 /* LeftA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftA.png; sourceTree = "<group>"; };
+		FF0F6BD31E34C7BE00AD36A8 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		FF0F6BD51E34C9E500AD36A8 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		FF0F6BD71E34CB5500AD36A8 /* textp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textp.png; sourceTree = "<group>"; };
+		FF0F6BD91E34CBFB00AD36A8 /* textpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textpic.png; sourceTree = "<group>"; };
+		FF0F6BDB1E34CC7F00AD36A8 /* notif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notif.png; sourceTree = "<group>"; };
+		FF0F6BDD1E34CD3F00AD36A8 /* siri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siri.png; sourceTree = "<group>"; };
+		FF0F6BDF1E34CD5200AD36A8 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		FF0F6BE11E34CECC00AD36A8 /* orangesq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangesq.png; sourceTree = "<group>"; };
+		FF0F6BE31E34CF7B00AD36A8 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		FF0F6BE51E34D3AB00AD36A8 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		FF0F6BE71E34D44C00AD36A8 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		FF0F6BE91E34D45200AD36A8 /* graycircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graycircle.png; sourceTree = "<group>"; };
+		FF0F6BEB1E34D46000AD36A8 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		FF0F6BED1E34D69200AD36A8 /* currentLocationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currentLocationIcon.png; sourceTree = "<group>"; };
+		FF0F6BEF1E34D74F00AD36A8 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		FF0F6BF11E34D95B00AD36A8 /* amb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amb.png; sourceTree = "<group>"; };
+		FF0F6BF31E34D96100AD36A8 /* police.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = police.png; sourceTree = "<group>"; };
+		FF0F6BF51E34D96C00AD36A8 /* firetruck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firetruck.png; sourceTree = "<group>"; };
+		FF0F6BF71E34D97400AD36A8 /* storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storm.png; sourceTree = "<group>"; };
+		FF0F6BFB1E34DB2200AD36A8 /* rrrrightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rrrrightarrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +167,32 @@
 				C5E508701E33804600518462 /* ArcGIS.bundle */,
 				C5E508491E337DED00518462 /* Assets.xcassets */,
 				C5E5084B1E337DED00518462 /* LaunchScreen.storyboard */,
+				FF0F6BC71E34BB6800AD36A8 /* Screen Shot 2017-01-21 at 5.47.55 PM.png */,
 				C5E5084E1E337DED00518462 /* Info.plist */,
+				FF0F6BD51E34C9E500AD36A8 /* text.png */,
+				FF0F6BDD1E34CD3F00AD36A8 /* siri.png */,
+				FF0F6BF71E34D97400AD36A8 /* storm.png */,
+				FF0F6BF11E34D95B00AD36A8 /* amb.png */,
+				FF0F6BF31E34D96100AD36A8 /* police.png */,
+				FF0F6BF51E34D96C00AD36A8 /* firetruck.png */,
+				FF0F6BED1E34D69200AD36A8 /* currentLocationIcon.png */,
+				FF0F6BE71E34D44C00AD36A8 /* blue.png */,
+				FF0F6BEF1E34D74F00AD36A8 /* compass.png */,
+				FF0F6BE91E34D45200AD36A8 /* graycircle.png */,
+				FF0F6BE51E34D3AB00AD36A8 /* red.png */,
+				FF0F6BEB1E34D46000AD36A8 /* orange.png */,
+				FF0F6BD91E34CBFB00AD36A8 /* textpic.png */,
+				FF0F6BFB1E34DB2200AD36A8 /* rrrrightarrow.png */,
+				FF0F6BE31E34CF7B00AD36A8 /* check.png */,
+				FF0F6BDB1E34CC7F00AD36A8 /* notif.png */,
+				FF0F6BD71E34CB5500AD36A8 /* textp.png */,
+				FF0F6BDF1E34CD5200AD36A8 /* mail.png */,
+				FF0F6BE11E34CECC00AD36A8 /* orangesq.png */,
+				FF0F6BD11E34C42A00AD36A8 /* LeftA.png */,
+				FF0F6BD31E34C7BE00AD36A8 /* house.png */,
 				C5E508821E34921100518462 /* tent.png */,
 				C5E508801E348FC700518462 /* Splash.png */,
+				FF0F6BC91E34C06000AD36A8 /* Notifications.png */,
 			);
 			path = ArcGISApplication;
 			sourceTree = "<group>";
@@ -256,11 +325,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0F6BE41E34CF7B00AD36A8 /* check.png in Resources */,
+				FF0F6BEC1E34D46000AD36A8 /* orange.png in Resources */,
+				FF0F6BD21E34C42A00AD36A8 /* LeftA.png in Resources */,
 				C5E5084D1E337DED00518462 /* LaunchScreen.storyboard in Resources */,
+				FF0F6BF01E34D74F00AD36A8 /* compass.png in Resources */,
+				FF0F6BD41E34C7BE00AD36A8 /* house.png in Resources */,
+				FF0F6BC81E34BB6800AD36A8 /* Screen Shot 2017-01-21 at 5.47.55 PM.png in Resources */,
+				FF0F6BF21E34D95B00AD36A8 /* amb.png in Resources */,
+				FF0F6BEA1E34D45200AD36A8 /* graycircle.png in Resources */,
 				C5E5084A1E337DED00518462 /* Assets.xcassets in Resources */,
+				FF0F6BD81E34CB5500AD36A8 /* textp.png in Resources */,
+				FF0F6BDA1E34CBFB00AD36A8 /* textpic.png in Resources */,
 				C5E508831E34921100518462 /* tent.png in Resources */,
+				FF0F6BF81E34D97400AD36A8 /* storm.png in Resources */,
+				FF0F6BF41E34D96100AD36A8 /* police.png in Resources */,
 				C5E508811E348FC700518462 /* Splash.png in Resources */,
+				FF0F6BE61E34D3AB00AD36A8 /* red.png in Resources */,
+				FF0F6BE81E34D44C00AD36A8 /* blue.png in Resources */,
+				FF0F6BD61E34C9E500AD36A8 /* text.png in Resources */,
 				C5E508711E33804600518462 /* ArcGIS.bundle in Resources */,
+				FF0F6BDE1E34CD4000AD36A8 /* siri.png in Resources */,
+				FF0F6BCA1E34C06000AD36A8 /* Notifications.png in Resources */,
+				FF0F6BF61E34D96C00AD36A8 /* firetruck.png in Resources */,
+				FF0F6BDC1E34CC7F00AD36A8 /* notif.png in Resources */,
+				FF0F6BE21E34CECC00AD36A8 /* orangesq.png in Resources */,
+				FF0F6BFC1E34DB2200AD36A8 /* rrrrightarrow.png in Resources */,
+				FF0F6BEE1E34D69200AD36A8 /* currentLocationIcon.png in Resources */,
+				FF0F6BE01E34CD5200AD36A8 /* mail.png in Resources */,
 				C5E508481E337DED00518462 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

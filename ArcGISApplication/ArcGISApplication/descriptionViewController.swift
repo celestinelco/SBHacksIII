@@ -15,9 +15,10 @@ class DescriptionViewController: UIViewController {
     
     @IBOutlet weak var backButton: UIButton!
     
-    
+
     @IBAction func backButton(_ sender: UIButton) {
         navigateToAuthenticatedViewController("mainMapVC")
+
     }
     
     /**
