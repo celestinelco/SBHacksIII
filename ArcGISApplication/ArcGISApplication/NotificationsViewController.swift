@@ -11,8 +11,35 @@ import UIKit
 
 class NotificationsViewController: UIViewController {
     
-    
     let appDel = UIApplication.shared.delegate as! AppDelegate
+    
+    @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var homeButton: UIButton!
+    @IBOutlet weak var smsTextMessageButton: UIButton!
+    @IBOutlet weak var pushNotificationsButton: UIButton!
+    @IBOutlet weak var emailButton: UIButton!
+    @IBOutlet weak var handsFreeAudioButton: UIButton!
+    
+    @IBAction func backButton(_ sender: UIButton) {
+        navigateToAuthenticatedViewController("alertSelectVC")
+    }
+    
+    @IBAction func homeButton(_ sender: UIButton) {
+        navigateToAuthenticatedViewController("mainMapVC")
+    }
+    
+    @IBAction func smsTextMessageButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func pushNotificationsButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func emailButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func handsFreeAudioButton(_ sender: UIButton) {
+    }
+    
     
     /**
      Navigates storyboard to view controller with specified String name.

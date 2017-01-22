@@ -13,6 +13,15 @@ class LoginAuthenticationViewController: UIViewController {
     
     let appDel = UIApplication.shared.delegate as! AppDelegate
     
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var phoneTextField: UITextField!
+    @IBOutlet weak var nextButton: UIButton!
+    
+    @IBAction func nextButton(_ sender: UIButton) {
+        navigateToAuthenticatedViewController("mainMapVC")
+    }
+    
+    
     /**
      Navigates storyboard to view controller with specified String name.
      - Parameter controllerName: <String> name of controller storyboard will navigate to.

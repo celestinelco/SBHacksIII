@@ -13,6 +13,13 @@ class DescriptionViewController: UIViewController {
     
     let appDel = UIApplication.shared.delegate as! AppDelegate
     
+    @IBOutlet weak var backButton: UIButton!
+    
+    
+    @IBAction func backButton(_ sender: UIButton) {
+        navigateToAuthenticatedViewController("mainMapVC")
+    }
+    
     /**
      Navigates storyboard to view controller with specified String name.
      - Parameter controllerName: <String> name of controller storyboard will navigate to.

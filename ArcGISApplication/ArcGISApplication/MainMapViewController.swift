@@ -21,6 +21,8 @@ class MainMapViewController: UIViewController, CLLocationManagerDelegate {
     var basemap: AGSBasemapType?
     
     @IBOutlet weak var myMap: AGSMapView!
+    @IBOutlet weak var alertsButton: UIButton!
+    @IBOutlet weak var aboutButton: UIButton!
     
     override func viewDidLoad() {
         print("\n\nMainMapViewController.swift\n\n")
@@ -45,6 +47,14 @@ class MainMapViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         myMap.map = AGSMap(basemapType: basemap!, latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude, levelOfDetail: 16)
+    }
+    
+    @IBAction func alertsButton(_ sender: UIButton) {
+        navigateToAuthenticatedViewController("alertSelectVC")
+    }
+    
+    @IBAction func aboutButton(_ sender: UIButton) {
+        navigateToAuthenticatedViewController("descriptionVC")
     }
     
     /**
