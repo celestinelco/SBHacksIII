@@ -214,7 +214,7 @@
 				TargetAttributes = {
 					C5E5083E1E337DED00518462 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = EAYC8NMCCB;
+						DevelopmentTeam = 2R2958HZL4;
 						ProvisioningStyle = Automatic;
 					};
 					C5E508521E337DED00518462 = {
@@ -441,7 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EAYC8NMCCB;
+				DEVELOPMENT_TEAM = 2R2958HZL4;
 				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static";
 				INFOPLIST_FILE = ArcGISApplication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -463,7 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EAYC8NMCCB;
+				DEVELOPMENT_TEAM = 2R2958HZL4;
 				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static";
 				INFOPLIST_FILE = ArcGISApplication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -558,6 +558,7 @@
 				C5E508691E337DEE00518462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5E5086A1E337DEE00518462 /* Build configuration list for PBXNativeTarget "ArcGISApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +567,7 @@
 				C5E5086C1E337DEE00518462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5E5086D1E337DEE00518462 /* Build configuration list for PBXNativeTarget "ArcGISApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +576,7 @@
 				C5E5086F1E337DEE00518462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
