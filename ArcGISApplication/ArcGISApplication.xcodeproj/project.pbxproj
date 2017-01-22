@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C5E508431E337DED00518462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508421E337DED00518462 /* AppDelegate.swift */; };
-		C5E508451E337DED00518462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508441E337DED00518462 /* ViewController.swift */; };
 		C5E508481E337DED00518462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E508461E337DED00518462 /* Main.storyboard */; };
 		C5E5084A1E337DED00518462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E508491E337DED00518462 /* Assets.xcassets */; };
 		C5E5084D1E337DED00518462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E5084B1E337DED00518462 /* LaunchScreen.storyboard */; };
@@ -16,6 +15,10 @@
 		C5E508631E337DEE00518462 /* ArcGISApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508621E337DEE00518462 /* ArcGISApplicationUITests.swift */; };
 		C5E508711E33804600518462 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5E508701E33804600518462 /* ArcGIS.bundle */; };
 		C5E508731E33829100518462 /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508721E33829000518462 /* MainMapViewController.swift */; };
+		C5E508761E343BB000518462 /* LoginAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508751E343BB000518462 /* LoginAuthenticationViewController.swift */; };
+		C5E5087A1E343C1D00518462 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508791E343C1D00518462 /* DescriptionViewController.swift */; };
+		C5E5087C1E343C4400518462 /* AlertSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E5087B1E343C4400518462 /* AlertSelectViewController.swift */; };
+		C5E5087E1E343C6600518462 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E5087D1E343C6600518462 /* NotificationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 /* Begin PBXFileReference section */
 		C5E5083F1E337DED00518462 /* ArcGISApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcGISApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E508421E337DED00518462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5E508441E337DED00518462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5E508471E337DED00518462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5E508491E337DED00518462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5E5084C1E337DED00518462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		C5E508641E337DEE00518462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5E508701E33804600518462 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../../../Library/SDKs/ArcGIS/iOS/Frameworks/Static/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
 		C5E508721E33829000518462 /* MainMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
+		C5E508751E343BB000518462 /* LoginAuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAuthenticationViewController.swift; sourceTree = "<group>"; };
+		C5E508791E343C1D00518462 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		C5E5087B1E343C4400518462 /* AlertSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSelectViewController.swift; sourceTree = "<group>"; };
+		C5E5087D1E343C6600518462 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				C5E508421E337DED00518462 /* AppDelegate.swift */,
-				C5E508441E337DED00518462 /* ViewController.swift */,
 				C5E508721E33829000518462 /* MainMapViewController.swift */,
+				C5E508751E343BB000518462 /* LoginAuthenticationViewController.swift */,
+				C5E508791E343C1D00518462 /* DescriptionViewController.swift */,
+				C5E5087B1E343C4400518462 /* AlertSelectViewController.swift */,
+				C5E5087D1E343C6600518462 /* NotificationsViewController.swift */,
 				C5E508461E337DED00518462 /* Main.storyboard */,
 				C5E508701E33804600518462 /* ArcGIS.bundle */,
 				C5E508491E337DED00518462 /* Assets.xcassets */,
@@ -270,7 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5E508731E33829100518462 /* MainMapViewController.swift in Sources */,
-				C5E508451E337DED00518462 /* ViewController.swift in Sources */,
+				C5E508761E343BB000518462 /* LoginAuthenticationViewController.swift in Sources */,
+				C5E5087C1E343C4400518462 /* AlertSelectViewController.swift in Sources */,
+				C5E5087E1E343C6600518462 /* NotificationsViewController.swift in Sources */,
+				C5E5087A1E343C1D00518462 /* DescriptionViewController.swift in Sources */,
 				C5E508431E337DED00518462 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

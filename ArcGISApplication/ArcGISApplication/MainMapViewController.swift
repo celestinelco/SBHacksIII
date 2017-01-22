@@ -14,11 +14,18 @@ class MainMapViewController: UIViewController, CLLocationManagerDelegate {
     
     var locManager = CLLocationManager()
     var currentLocation = CLLocation()
+    let appDel = UIApplication.shared.delegate as! AppDelegate
+    
+    let date = NSDate()
+    var hour: Int!
+    var basemap: AGSBasemapType?
     
     @IBOutlet weak var myMap: AGSMapView!
     
     override func viewDidLoad() {
         print("\n\nMainMapViewController.swift\n\n")
+        
+        hour = NSCalendar.current.component(.hour, from: date as Date)
         
         locManager.requestWhenInUseAuthorization()
         
@@ -29,9 +36,28 @@ class MainMapViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         print("Latitude: \(currentLocation.coordinate.latitude)\t Longitude: \(currentLocation.coordinate.longitude)")
+        print("\nHour: \(hour)")
         
-        myMap.map = AGSMap(basemapType: .imageryWithLabels, latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude, levelOfDetail: 16)
+        if hour > 7 && hour < 17 {  //daytime
+            basemap = AGSBasemapType.streets
+        } else {
+            basemap = AGSBasemapType.streetsNightVector
+        }
         
+        myMap.map = AGSMap(basemapType: basemap!, latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude, levelOfDetail: 16)
+    }
+    
+    /**
+     Navigates storyboard to view controller with specified String name.
+     - Parameter controllerName: <String> name of controller storyboard will navigate to.
+     */
+    func navigateToAuthenticatedViewController(_ controllerName: String){
+        if let loggedInVC = storyboard?.instantiateViewController(withIdentifier: controllerName) {
+            DispatchQueue.main.async { () -> Void in
+                self.navigationController?.isNavigationBarHidden = true
+                self.navigationController?.pushViewController(loggedInVC, animated: true)
+            }
+        }
     }
     
     
