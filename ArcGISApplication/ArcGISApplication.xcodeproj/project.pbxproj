@@ -19,6 +19,8 @@
 		C5E5087A1E343C1D00518462 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508791E343C1D00518462 /* DescriptionViewController.swift */; };
 		C5E5087C1E343C4400518462 /* AlertSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E5087B1E343C4400518462 /* AlertSelectViewController.swift */; };
 		C5E5087E1E343C6600518462 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E5087D1E343C6600518462 /* NotificationsViewController.swift */; };
+		C5E508811E348FC700518462 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E508801E348FC700518462 /* Splash.png */; };
+		C5E508831E34921100518462 /* tent.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E508821E34921100518462 /* tent.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		C5E508791E343C1D00518462 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		C5E5087B1E343C4400518462 /* AlertSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSelectViewController.swift; sourceTree = "<group>"; };
 		C5E5087D1E343C6600518462 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		C5E508801E348FC700518462 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		C5E508821E34921100518462 /* tent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tent.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				C5E508491E337DED00518462 /* Assets.xcassets */,
 				C5E5084B1E337DED00518462 /* LaunchScreen.storyboard */,
 				C5E5084E1E337DED00518462 /* Info.plist */,
+				C5E508821E34921100518462 /* tent.png */,
+				C5E508801E348FC700518462 /* Splash.png */,
 			);
 			path = ArcGISApplication;
 			sourceTree = "<group>";
@@ -252,6 +258,8 @@
 			files = (
 				C5E5084D1E337DED00518462 /* LaunchScreen.storyboard in Resources */,
 				C5E5084A1E337DED00518462 /* Assets.xcassets in Resources */,
+				C5E508831E34921100518462 /* tent.png in Resources */,
+				C5E508811E348FC700518462 /* Splash.png in Resources */,
 				C5E508711E33804600518462 /* ArcGIS.bundle in Resources */,
 				C5E508481E337DED00518462 /* Main.storyboard in Resources */,
 			);
