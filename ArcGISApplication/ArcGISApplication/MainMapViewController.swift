@@ -26,15 +26,23 @@ class MainMapViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var alertsButton: UIButton!
     @IBOutlet weak var aboutButton: UIButton!
     
-    override func viewDidLoad() {
+    override func viewDidAppear(_ animated: Bool) {
         print("\n\nMainMapViewController.swift\n\n")
-        setCurrentLocation()
-        preloadPointers()
-        initDateAndMap()
         
-        print("samplePoints: \(samplePoints)")
-        addPicMarkers(array: samplePoints)
-        addPicMarkerSymbol(imgName: "currentLocationIcon", coord: currentLocation.coordinate)
+        if appDel.userDefaults.bool(forKey: "emailInfoInitialized") &&
+            appDel.userDefaults.bool(forKey: "phoneInfoInitialized") {
+            setCurrentLocation()
+            preloadPointers()
+            initDateAndMap()
+            
+            print("samplePoints: \(samplePoints)")
+            addPicMarkers(array: samplePoints)
+            addPicMarkerSymbol(imgName: "currentLocationIcon", coord: currentLocation.coordinate)
+        } else {
+            navigateToAuthenticatedViewController("loginAuthenticationVC")
+        }
+        
+        
 
     }
     

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class LoginAuthenticationViewController: UIViewController {
+class LoginAuthenticationViewController: UIViewController, UITextFieldDelegate {
     
     let appDel = UIApplication.shared.delegate as! AppDelegate
     
@@ -19,10 +19,28 @@ class LoginAuthenticationViewController: UIViewController {
     
     override func viewDidLoad() {
         print("\n\nLoginAuthenticationViewController.swift\n\n")
+        emailTextField.delegate = self
+        phoneTextField.delegate = self
+        emailTextField.returnKeyType = .done
+        phoneTextField.returnKeyType = .done
     }
     
+    @IBAction func emailTextField(_ sender: UITextField) {
+        appDel.userDefaults.set(emailTextField.text, forKey: "emailInfo")
+        appDel.userDefaults.set(true, forKey: "emailInfoInitialized")
+    }
+    
+    @IBAction func phoneTextField(_ sender: UITextField) {
+        appDel.userDefaults.set(phoneTextField.text, forKey: "phoneInfo")
+        appDel.userDefaults.set(true, forKey: "phoneInfoInitialized")
+    }
+    
+    
+    
     @IBAction func nextButton(_ sender: UIButton) {
-        navigateToAuthenticatedViewController("mainMapVC")
+        if emailTextField.hasText && phoneTextField.hasText {
+            navigateToAuthenticatedViewController("mainMapVC")
+        }
     }
     
     /**

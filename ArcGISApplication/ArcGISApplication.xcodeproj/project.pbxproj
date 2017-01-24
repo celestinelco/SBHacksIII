@@ -23,6 +23,8 @@
 		C5E508831E34921100518462 /* tent.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E508821E34921100518462 /* tent.png */; };
 		C5E508851E34F19B00518462 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E508841E34F19B00518462 /* checked.png */; };
 		C5E508871E34F6B600518462 /* locationPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E508861E34F6B600518462 /* locationPointer.swift */; };
+		C5E508891E35330300518462 /* compass2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E508881E35330200518462 /* compass2.png */; };
+		C5E5088F1E3536AC00518462 /* compass3.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E5088E1E3536AC00518462 /* compass3.png */; };
 		FF0F6BCA1E34C06000AD36A8 /* Notifications.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BC91E34C06000AD36A8 /* Notifications.png */; };
 		FF0F6BD21E34C42A00AD36A8 /* LeftA.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BD11E34C42A00AD36A8 /* LeftA.png */; };
 		FF0F6BD41E34C7BE00AD36A8 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0F6BD31E34C7BE00AD36A8 /* house.png */; };
@@ -87,6 +89,8 @@
 		C5E508821E34921100518462 /* tent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tent.png; sourceTree = "<group>"; };
 		C5E508841E34F19B00518462 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
 		C5E508861E34F6B600518462 /* locationPointer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationPointer.swift; sourceTree = "<group>"; };
+		C5E508881E35330200518462 /* compass2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass2.png; sourceTree = "<group>"; };
+		C5E5088E1E3536AC00518462 /* compass3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass3.png; sourceTree = "<group>"; };
 		FF0F6BC91E34C06000AD36A8 /* Notifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notifications.png; sourceTree = "<group>"; };
 		FF0F6BD11E34C42A00AD36A8 /* LeftA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftA.png; sourceTree = "<group>"; };
 		FF0F6BD31E34C7BE00AD36A8 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
@@ -179,7 +183,9 @@
 				FF0F6BF51E34D96C00AD36A8 /* firetruck.png */,
 				FF0F6BED1E34D69200AD36A8 /* currentLocationIcon.png */,
 				FF0F6BE71E34D44C00AD36A8 /* blue.png */,
+				C5E5088E1E3536AC00518462 /* compass3.png */,
 				FF0F6BEF1E34D74F00AD36A8 /* compass.png */,
+				C5E508881E35330200518462 /* compass2.png */,
 				FF0F6BE91E34D45200AD36A8 /* graycircle.png */,
 				FF0F6BE51E34D3AB00AD36A8 /* red.png */,
 				FF0F6BEB1E34D46000AD36A8 /* orange.png */,
@@ -347,12 +353,14 @@
 				FF0F6BE81E34D44C00AD36A8 /* blue.png in Resources */,
 				FF0F6BD61E34C9E500AD36A8 /* text.png in Resources */,
 				C5E508711E33804600518462 /* ArcGIS.bundle in Resources */,
+				C5E508891E35330300518462 /* compass2.png in Resources */,
 				FF0F6BDE1E34CD4000AD36A8 /* siri.png in Resources */,
 				C5E508851E34F19B00518462 /* checked.png in Resources */,
 				FF0F6BCA1E34C06000AD36A8 /* Notifications.png in Resources */,
 				FF0F6BF61E34D96C00AD36A8 /* firetruck.png in Resources */,
 				FF0F6BDC1E34CC7F00AD36A8 /* notif.png in Resources */,
 				FF0F6BE21E34CECC00AD36A8 /* orangesq.png in Resources */,
+				C5E5088F1E3536AC00518462 /* compass3.png in Resources */,
 				FF0F6BFC1E34DB2200AD36A8 /* rrrrightarrow.png in Resources */,
 				FF0F6BEE1E34D69200AD36A8 /* currentLocationIcon.png in Resources */,
 				FF0F6BE01E34CD5200AD36A8 /* mail.png in Resources */,
